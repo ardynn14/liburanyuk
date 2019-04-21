@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit|Mogra');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(pics/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.navbar {
+    margin: 0px;
+    height: 150px;
+    width: 100%;
+}
+
+.logo h1 {
+    margin: 0px;
+    color: whitesmoke;
+    font-size: 200px;
+    font-family: 'Mogra', cursive;
+    margin: auto;
+    border: 10px solid whitesmoke;
+    border-radius: 30%;
+    font-weight: bold;
+
+}
+.logo {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    margin: auto;
+    width: 1400px;
+
+}
+
+.navlink {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navlink a {
+    color: whitesmoke;
+    margin: 0px;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 50px;
+    text-decoration: none;
+   
+}
+
+.navlink a:hover {
+    color: whitesmoke;
+    opacity: 0.6;
+}
+
+
+.footer {
+    height: auto;
+    position: relative;
+    float: right;
+}
+
+.footer i{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
