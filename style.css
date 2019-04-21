@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kanit|Mogra');
+@import url('https://fonts.googleapis.com/css?family=Kanit|Mogra|Assistant:700');
 
 
 body {
@@ -7,57 +7,75 @@ body {
     background-image: url(pics/bg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 
+}
+
+.title {
+    width: 100%;
+    margin: auto;
+}
+
+.title h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Mogra', cursive;
 }
 
 .navbar {
     margin: 0px;
-    height: 150px;
+    height: 90px;
     width: 100%;
+}
+
+.content {
+    width: 60%;
+    padding-left: 20%;
+padding-right: 20%;
 }
 
 .logo h1 {
     margin: 0px;
-    color: whitesmoke;
-    font-size: 200px;
+    color: white;
+    font-size: 100px;
     font-family: 'Mogra', cursive;
-    margin: auto;
-    border: 10px solid whitesmoke;
-    border-radius: 30%;
-    font-weight: bold;
+   margin: auto;
+    border: 8px solid white;
+    border-radius: 20%;
+    font-weight: normal;
 
 }
 .logo {
     position: relative;
-    top: 150px;
+    top: 120px;
     text-align: center;
     margin: auto;
-    width: 1400px;
-
 }
 
 .navlink {
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 
 .navlink a {
-    color: whitesmoke;
+    color: white;
     margin: 0px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Kanit', sans-serif;
-    padding-left: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
     text-decoration: none;
    
 }
 
 .navlink a:hover {
     color: whitesmoke;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 
-.footer {
+
+footer {
     height: auto;
     position: relative;
     float: right;
@@ -67,4 +85,108 @@ body {
     color: whitesmoke;
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
+}
+
+.tabletour {
+
+}
+
+.package {
+    background-color: grey;
+    border-radius: 5px;
+    margin: 20px auto;
+    height: 200px;
+    text-align: center;
+}
+
+.fitimage{
+    display: inline-block;
+    height:170px;
+    width: 250px;
+    background-position:center;
+    background-repeat:no-repeat;
+    float: left;
+    width: 30%;
+background-color: whitesmoke;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .tourinfo h3{
+    display: inline-block;
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    color: white;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    line-height: 30px;
+    }  */
+
+.tourinfo p {
+display: inline-block;
+font-family: 'Kanit', sans-serif;
+font-size: 14px;
+color: white;
+float: left;
+width: 30%;
+padding: 10px;
+line-height: 25px;
+}
+
+.tourfaci {
+display: inline-block;
+font-family: 'Kanit', sans-serif;
+font-size: 14px;
+color: grey;
+float: right;
+width: 30%;
+background-color: whitesmoke;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul {
+    line-height: 10px;
+}
+
+.infotable{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+}
+
+.aboutimg {
+    text-align: center;
+}
+
+img.founderimg {
+    height: 150px;
+    border-radius: 10%;
+}
+
+.speech {
+    width: 60%;
+    text-align: center;
+    padding-left: 20%;
+}
+
+.speechtd {
+    width: 50%;
+}
+.speechtd p {
+    color: white;
+    font-size: 16px;
+    font-family: 'Assistant', sans-serif;
+    line-height: 20px;
+    padding: 10px;
+}
+.grid {
+border-right: 3px solid white;
+height: 100px;
+}
+
+.hrspeech {
+    border: 3px dotted white;
 }
